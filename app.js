@@ -68,3 +68,16 @@ document.getElementById("editeur1").addEventListener("keyup", function() {
 document.getElementById("editeur1").addEventListener("keyup", function() {
     document.getElementById("emptybar").style.width = editeur1.value.length / 2 + "%";
 });
+
+//*couleur de barre
+
+editeur1.addEventListener("keyup", () => {
+
+    if (editeur1.value.length >= 0 && editeur1.value.length <= 65) {
+        document.getElementById("emptybar").style.backgroundColor = "green";
+    } else if (editeur1.value.length > 66 && editeur1.value.length <= 130) {
+        document.getElementById("emptybar").style.backgroundColor = "orange";
+    } else if (editeur1.value.length > 131 && editeur1.value.length <= 200) {
+        document.getElementById("emptybar").style.backgroundColor = "red";
+    }
+});

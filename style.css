@@ -32,7 +32,6 @@ body {
 }
 
 .contenu {
-    text-align: center;
     height: 150px;
     width: 50%;
     border: 5px solid rgb(18, 0, 117);
@@ -41,12 +40,12 @@ body {
     font-style: normal;
 }
 
-.progressBar {
+.progressbar {
     height: 20px;
     width: 50%;
     border: 2px solid rgb(18, 0, 117);
     margin: 10px;
-    background-color: rgb(190, 45, 26);
+    background-color: rgb(226, 189, 184);
 }
 
 .emptybar {
@@ -55,6 +54,8 @@ body {
     border: 2px solid rgb(18, 0, 117);
     margin: 10px;
     background-color: green;
+    margin: 0px;
+    border: 0px;
 }
 
 .compteur {
