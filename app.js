@@ -9,7 +9,7 @@ const editeur2 = document.querySelector("#editeur2")
 editeur1.addEventListener("keyup", () => {
 
     const taper = document.querySelector("#editeur1").value;
-    editeur2.value = taper;
+    editeur2.innerHTML = taper;
 
 });
 

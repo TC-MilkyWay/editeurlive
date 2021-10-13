@@ -38,6 +38,8 @@ body {
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
+    resize: none;
+    background: white;
 }
 
 .progressbar {
@@ -64,6 +66,10 @@ body {
     color: blue;
 }
 
+.rendu {
+    background: white;
+}
+
 #nombre {
     resize: none;
 }
@@ -82,4 +88,5 @@ body {
     visibility: hidden;
     height: 50px;
     margin: 5px;
+    border-radius: 5px;
 }
